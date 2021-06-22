@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className={styles.header_container}>
             <div className={styles.title}>
-                <p>Todo App ni Nixon</p>
+                <p>Todo App</p>
             </div>
             <div className={styles.day}>
                 <p className={styles.time}>{currentTime}</p>
