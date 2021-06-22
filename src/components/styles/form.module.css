@@ -1,0 +1,31 @@
+.form_container{
+    text-align: center;
+    width:100%;
+}
+.input_container{
+    width:100%;
+    max-width: 500px;
+    margin:0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+ 
+}
+.input_container input{
+    padding:1.1rem 2.5rem;
+    background-color: #444444;
+    outline: none;
+    border: none;
+    color: #EDEDED;
+    width:100%;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+.icon{
+    position: absolute;
+    left:0;
+    padding:0.6rem;
+    display: flex;
+    align-items:center;
+
+}

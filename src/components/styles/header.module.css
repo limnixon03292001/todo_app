@@ -1,0 +1,30 @@
+.header_container{
+    text-align: center;
+    width:100%; 
+    margin-bottom: 2rem;
+}
+
+.title p{
+    color: #EDEDED;
+    font-weight: lighter;
+}
+
+.day h1{
+    color: #EDEDED;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.date p{
+    color: #C4C4C4;
+    font-size: 0.9rem;
+    margin-top:0.6rem;
+    font-weight: lighter;
+}
+
+.time{
+    color: #C4C4C4;
+    font-size: 0.9rem;
+    margin:0;
+    font-weight: lighter;
+}

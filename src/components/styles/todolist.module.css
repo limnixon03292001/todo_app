@@ -1,0 +1,90 @@
+.todolist_container{
+    background-color: #444444;
+    border-radius: 3px;
+    padding:0.7rem;
+    max-width: 500px;
+    margin: 0.9rem auto;
+    animation: coming 0.3s ease-in;
+}
+
+@keyframes coming {
+    0%{
+        opacity: 0.3;
+        transform: scale(0.3);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+.flex_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_child:nth-child(1){
+    max-width: 320px;
+}
+
+.flex_child p{
+    color:#EDEDED;
+    margin:0;
+    font-size: 1rem;
+    font-weight:lighter;
+}
+.flex_child p:nth-child(2){
+    margin-top: 0.8rem;
+    font-size: 0.7rem;
+    color: #c4c4c4;
+}
+
+.button_container button{
+    background-color: #DA0037;
+    border:none;
+    margin: 0.3rem;
+    padding:0.6rem 0.7rem;
+    transition: 0.3s ease;
+    border-radius: 100%;
+    clip-path: circle();
+    cursor: pointer;
+}
+
+.button_container button:focus{
+    background-color: #d44f71;
+}
+
+.button_container button span{
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width:520px){
+    .flex_child p{
+        font-size: 0.9rem;
+    }
+    
+    .button_container {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: flex-end;
+       gap: 0.5rem;
+    }
+
+    .button_container button{
+        display:block;
+        padding:0.5rem 0.6rem;
+        margin:0;
+  
+    }
+    
+}
+
+@media (max-width:320px){
+
+    .button_container {
+      flex-direction: column;
+    }
+
+}
